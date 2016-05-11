@@ -1,0 +1,10 @@
+- contoh project menggunakan laravel v.5.1
+- mungkin ada beberapa (sedikit) codingannya beda di v.5.2 (dipakai praktikum)
+- form yg kugunakan pake form html yg bukan laravelcollective: <form>..</form>
+- untuk contoh relasi M to M, akan menghasilkan tabel baru (pivot)
+- contoh tabel pivot di project ini: tabel peminjaman
+- tabel pivot tidak memiliki model & controller
+- fungsi pengisian tabel pivot menumpang di controller lain
+- untuk fungsi tabel pivot ini, fungsinya kumasukkan di MhsController di fungsi pinjam() & prosesPinjam()
+- untuk view peminjamannya di resources/view/mahasiswa/form-pinjam.php
+- semoga bermanfaat
